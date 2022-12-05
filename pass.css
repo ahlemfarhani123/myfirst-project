@@ -1,0 +1,114 @@
+.leftit {
+  float:right;
+ font-size: cover;
+
+}
+
+.cook {
+  backface-visibility: none;
+  margin-left: 200px;
+  height: 600px;
+  size: 500px;
+  color: yellow;
+}
+#cook{
+  color: green;
+  text-shadow:all;
+  font-size: 60px;
+}
+#mycake{
+  color: green;
+  text-shadow:all;
+  font-size: 60px; 
+}
+#pizza{
+   color: green;
+  text-shadow:all;
+  font-size: 60px;
+}
+#cheese{
+   color: green;
+  text-shadow:all;
+  font-size: 60px;
+}
+body {
+  background-image: url("./img/cover.webp");
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.body {
+  width: 50%;
+  padding: 12px 20px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: transparent;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.myInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signIn {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.myInput :hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#cake {
+  visibility: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 100px;
+  padding: 0;
+  width: 500px;
+  font-size: 40px;
+  color: black;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+h1{
+  font-size: 50px; 
+}
+label{
+  font-size: 45px; 
+}
